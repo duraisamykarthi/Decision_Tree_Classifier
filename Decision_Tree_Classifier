@@ -1,0 +1,12 @@
+from sklearn import tree
+
+#Importing data
+features = [[140, 1], [130, 1], [150, 0], [170, 0]]
+labels = [[0, 0, 1, 1]
+
+#Train the Data
+clf = clf.DecisionTreeClassifier()
+clf = clf.fit(features, labels)
+
+#Test the Data
+print(clf.predict([[149, 0]]))
